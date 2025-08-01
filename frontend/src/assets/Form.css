@@ -1,0 +1,68 @@
+
+.form-body{
+    background-image: url("../bgimages/subtle-prism.png");
+    height: 100vh;
+    width: 100%;;
+}
+.comp-reg-title{
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.formlabel{
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-right: 1rem;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+.problemtype-div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+#problemoptions{
+    aspect-ratio: 3.5/0.5;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.descriptionbox{
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+.register-comp-btn{
+    background-color: rgb(165, 202, 255);
+    padding: 8px 16px;
+    margin-top: 25px;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.register-comp-btn:hover{
+    background-color: rgb(26, 74, 147);
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.task-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-table th, .task-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.task-table thead th {
+    background-color: #d62669;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.task-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.task-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.not-started {
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+
+.rejected{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.in-progress {
+    background-color: rgb(255, 162, 0);
+    color: white;
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
+
+.edit-delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-delete-button:hover {
+    background-color: #c0392b;
+}

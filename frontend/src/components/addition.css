@@ -1,0 +1,21 @@
+.modal.active{
+    display: block;
+}
+
+.problems{
+    width:600px;
+    height:600px;
+    background-color: aliceblue;
+    margin:140px auto;
+    border: 1px solid black;
+    border-radius: 5px;;
+}
+
+.showing{
+    margin-left: 35%;
+    margin-top:10px;
+}
+
+.road-table{
+    margin:40px;
+}
